@@ -1,0 +1,3 @@
+source ./scripts/docker-config
+
+docker run -v $(pwd):/app --net=host -it ${DOCKER_CONTAINER_NAME} sh
